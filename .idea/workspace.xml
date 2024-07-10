@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2881bc7-d446-41bd-85fc-75dfbeda933e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RemoveElement.java" afterDir="false" />
+    <list default="true" id="d2881bc7-d446-41bd-85fc-75dfbeda933e" name="Changes" comment="removeElement">
+      <change afterPath="$PROJECT_DIR$/src/SortedSquares.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +72,16 @@
       <workItem from="1710943600413" duration="667000" />
       <workItem from="1720442409268" duration="108000" />
       <workItem from="1720573975236" duration="1353000" />
-      <workItem from="1720575849235" duration="1000000" />
+      <workItem from="1720575849235" duration="2558000" />
     </task>
+    <task id="LOCAL-00001" summary="removeElement">
+      <created>1720577078972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720577078972</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="removeElement" />
+    <option name="LAST_COMMIT_MESSAGE" value="removeElement" />
   </component>
 </project>
