@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2881bc7-d446-41bd-85fc-75dfbeda933e" name="Changes" comment="sortedSquares">
-      <change afterPath="$PROJECT_DIR$/src/modal/simpleFactory/AmeCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modal/simpleFactory/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modal/simpleFactory/CoffeeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modal/simpleFactory/CoffeeStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modal/simpleFactory/LateeCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modal/simpleFactory/Test.java" afterDir="false" />
+    <list default="true" id="d2881bc7-d446-41bd-85fc-75dfbeda933e" name="Changes" comment="简单工厂模式">
+      <change afterPath="$PROJECT_DIR$/src/modal/factoryMethod/AmeCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modal/factoryMethod/AmeCoffeeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modal/factoryMethod/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modal/factoryMethod/CoffeeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modal/factoryMethod/CoffeeStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modal/factoryMethod/LateeCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modal/factoryMethod/LateeCoffeeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modal/factoryMethod/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,19 +42,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/gitFile/firstProject/Algorithm/src/modal/factoryMethod",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Test">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gitFile\firstProject\Algorithm\src\modal\factoryMethod" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.modal.factoryMethod.Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Algorithm" />
@@ -73,8 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="modal.factoryMethod.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modal.factoryMethod.Test" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modal.factoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.modal.factoryMethod.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
       </list>
@@ -95,7 +117,7 @@
       <workItem from="1720839516441" duration="227000" />
       <workItem from="1721196853842" duration="17000" />
       <workItem from="1723212507723" duration="3000" />
-      <workItem from="1723434350758" duration="1213000" />
+      <workItem from="1723434350758" duration="1656000" />
     </task>
     <task id="LOCAL-00001" summary="removeElement">
       <created>1720577078972</created>
@@ -111,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720578441598</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="简单工厂模式">
+      <created>1723440904209</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723440904209</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removeElement" />
     <MESSAGE value="sortedSquares" />
-    <option name="LAST_COMMIT_MESSAGE" value="sortedSquares" />
+    <MESSAGE value="简单工厂模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单工厂模式" />
   </component>
 </project>
