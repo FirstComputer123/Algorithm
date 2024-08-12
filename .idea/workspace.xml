@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2881bc7-d446-41bd-85fc-75dfbeda933e" name="Changes" comment="removeElement">
-      <change afterPath="$PROJECT_DIR$/src/SortedSquares.java" afterDir="false" />
+    <list default="true" id="d2881bc7-d446-41bd-85fc-75dfbeda933e" name="Changes" comment="sortedSquares">
+      <change afterPath="$PROJECT_DIR$/src/modal/simpleFactory/AmeCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modal/simpleFactory/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modal/simpleFactory/CoffeeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modal/simpleFactory/CoffeeStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modal/simpleFactory/LateeCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modal/simpleFactory/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +52,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Algorithm" />
@@ -55,8 +60,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modal.simpleFactory.Test" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modal.simpleFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -72,7 +91,11 @@
       <workItem from="1710943600413" duration="667000" />
       <workItem from="1720442409268" duration="108000" />
       <workItem from="1720573975236" duration="1353000" />
-      <workItem from="1720575849235" duration="2558000" />
+      <workItem from="1720575849235" duration="5269000" />
+      <workItem from="1720839516441" duration="227000" />
+      <workItem from="1721196853842" duration="17000" />
+      <workItem from="1723212507723" duration="3000" />
+      <workItem from="1723434350758" duration="1213000" />
     </task>
     <task id="LOCAL-00001" summary="removeElement">
       <created>1720577078972</created>
@@ -81,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720577078972</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sortedSquares">
+      <created>1720578441598</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720578441598</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removeElement" />
-    <option name="LAST_COMMIT_MESSAGE" value="removeElement" />
+    <MESSAGE value="sortedSquares" />
+    <option name="LAST_COMMIT_MESSAGE" value="sortedSquares" />
   </component>
 </project>
