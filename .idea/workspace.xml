@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2881bc7-d446-41bd-85fc-75dfbeda933e" name="Changes" comment="工厂方法模式">
-      <change afterPath="$PROJECT_DIR$/src/modal/Builder/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modal/Builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modal/Builder/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modal/Builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modal/Builder/MobikeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modal/Builder/OfoBuilder.java" afterDir="false" />
+    <list default="true" id="d2881bc7-d446-41bd-85fc-75dfbeda933e" name="Changes" comment="建造者模式">
+      <change afterPath="$PROJECT_DIR$/src/modal/Proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modal/Proxy/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modal/Proxy/ProxyPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modal/Proxy/SellTickets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modal/Proxy/TrainStation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
       <recent name="E:\gitFile\firstProject\Algorithm\src\modal\factoryMethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.modal.Proxy.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modal.Builder.Client" />
       <module name="Algorithm" />
@@ -92,6 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="modal.Proxy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modal.Proxy.Client" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modal.Proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="modal.factoryMethod.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="modal.factoryMethod.Test" />
       <module name="Algorithm" />
@@ -107,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.modal.Proxy.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.modal.factoryMethod.Test" />
         <item itemvalue="Application.Test" />
